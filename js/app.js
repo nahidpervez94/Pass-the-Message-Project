@@ -6,7 +6,7 @@ const form = document.querySelector('#message-form')
 form.addEventListener('submit', function(e){
     // prevent the form's default submission action
     e.preventDefault()
-    //Get user's input from from
+    //Get user's input from form
     const message = document.querySelector('#message')
     const feedback = document.querySelector('.feedback')
     const messageContent = document.querySelector('.message-content')
